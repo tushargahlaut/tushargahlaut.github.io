@@ -42,14 +42,7 @@ export function TopNav() {
       }`}
     >
       <div className="mx-auto max-w-[1200px] px-6 md:px-10 flex items-center justify-between">
-        <a
-          href="#top"
-          className="font-serif text-base tracking-tight text-foreground"
-          aria-label="Tushar Gahlaut"
-        >
-          <span className="text-accent">●</span>{" "}
-          <span className="underline-grow">Tushar Gahlaut</span>
-        </a>
+        <div />
         <nav className="hidden md:flex items-center gap-10">
           {sections.map((s) => (
             <a

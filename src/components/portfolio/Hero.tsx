@@ -1,4 +1,4 @@
-import heroVideoAsset from "@/assets/hero-mist.mp4.asset.json";
+import heroVideo from "@/assets/hero-mist.mp4";
 
 export function Hero() {
   return (
@@ -6,7 +6,7 @@ export function Hero() {
       <div className="absolute inset-0 -z-10 overflow-hidden" aria-hidden="true">
         <video
           className="h-full w-full object-cover opacity-60"
-          src={heroVideoAsset.url}
+          src={heroVideo}
           autoPlay
           loop
           muted

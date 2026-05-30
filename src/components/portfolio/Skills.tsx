@@ -21,6 +21,10 @@ const groups = [
     label: "Messaging & Analytics",
     items: ["Kafka", "AMQ Streams", "Azure Event Grid", "Azure App Insights"],
   },
+  {
+    label: "AI & ML",
+    items: ["LangChain", "LangGraph", "Agent Orchestration", "Azure Document Intelligence", "Azure AI Search"],
+  },
 ];
 
 export function Skills() {
@@ -34,7 +38,7 @@ export function Skills() {
           </div>
           <div className="md:col-span-9">
             <h2 className="font-serif text-4xl md:text-6xl tracking-[-0.02em] leading-[1.05] text-background max-w-3xl">
-              The kit I reach for, <span className="italic text-background/70">most days</span>.
+              Languages, frameworks, and everything in between.
             </h2>
           </div>
         </div>

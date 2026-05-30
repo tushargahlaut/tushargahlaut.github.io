@@ -129,7 +129,7 @@ export function ExperienceSticky() {
     <section id="work" className="relative py-24 md:py-32 bg-background/90">
       <div className="mx-auto max-w-[1200px] px-6 md:px-10">
         <div className="flex items-baseline justify-between mb-16">
-          <span className="eyebrow">02 — Selected Work</span>
+          <span className="eyebrow">02 — Work Experience</span>
         </div>
 
         <div className="space-y-32 md:space-y-48">
